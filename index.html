@@ -170,7 +170,40 @@ color:#777
     padding: 50px 20px;
   }
 }
- 
+ @media (max-width: 650px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 55px 6% 60px;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 1;
+  }
+
+  .hero p {
+    font-size: 17px;
+    line-height: 1.5;
+    max-width: 100%;
+  }
+
+  section {
+    padding: 50px 6%;
+    width: 100%;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
 </style>
 
 </head>
