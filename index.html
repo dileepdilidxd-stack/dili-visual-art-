@@ -132,7 +132,44 @@ font-size:14px
 font-size:14px;
 color:#777
 }
+@media (max-width: 600px) {
+  .hero {
+    min-height: auto;
+    padding: 50px 25px;
+  }
 
+  .hero-inner {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 42px;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 17px;
+    max-width: 100%;
+  }
+
+  .cards,
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  section {
+    padding: 50px 20px;
+  }
+}
  
 </style>
 
